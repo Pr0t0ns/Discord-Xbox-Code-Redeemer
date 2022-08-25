@@ -68,7 +68,6 @@ class DiscordFetch:
         self.url = 'https://discord.com/api/v9/outbound-promotions/890374599315980288/claim'
         self.headers = {
             "accept": "*/*",
-            "accept-encoding": "gzip, deflate, br",
             "accept-language": "en-US,en;q=0.9",
             "authorization": self.token,
             "cookie": "__dcfduid=6f575b70191f11ed97da1f757024d5d7; __sdcfduid=6f575b71191f11ed97da1f757024d5d71201146a0fe8b2af2c79af28e32aea073ecc34c95ace9556676f8372725bf8a8;",
